@@ -1,0 +1,12 @@
+node{
+	stage('SCM checkout'){
+		///git 'https://github.com/MohitKumar-Github/Maven.git'
+		echo 'hello'
+	}
+//	stage('compile package'){
+		//get maven home path
+	//	def mvnHome = tool name: 'maven 3.9', type: 'maven'
+		//echo 'hello maven'
+		//bat "${mvnhome}/bin/mvn package"
+	}
+}
