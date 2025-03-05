@@ -1,9 +1,9 @@
 node{
 	stage('SCM checkout'){
-		def command = "git clone https://github.com/MohitKumar-Github/mavennn.git"
-		def process = command.execute()
-		process.waitFor()
-		//git clone 'https://github.com/MohitKumar-Github/Maven.git'
+		//def command = "git clone https://github.com/MohitKumar-Github/mavennn.git"
+		//def process = command.execute()
+		//process.waitFor()
+		git clone 'https://github.com/MohitKumar-Github/Maven.git'
 		echo 'hello'
 	}
 //	stage('compile package'){
