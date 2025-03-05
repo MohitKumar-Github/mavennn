@@ -9,7 +9,8 @@ node{
 		def mvnHome = tool name: 'maven 3.9', type: 'maven'
 		echo 'hello maven'
 		echo "The value of mvnHome is: ${mvnHome}"
-		bat "${mvnhome}/bin/mvn package"
+		bat 'mvn package'
+		//bat "${mvnhome}/bin/mvn package"
 	}
 
 }
