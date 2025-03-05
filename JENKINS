@@ -1,6 +1,7 @@
 node{
 	stage('SCM checkout'){
-		git clone 'https://github.com/MohitKumar-Github/Maven.git'
+		//git clone 'https://github.com/MohitKumar-Github/Maven.git'
+		git url: 'https://github.com/MohitKumar-Github/mavennn.git'
 		echo 'hello'
 		//def command = "git clone https://github.com/MohitKumar-Github/mavennn.git"
 		//def process = command.execute()
