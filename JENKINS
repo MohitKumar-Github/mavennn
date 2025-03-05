@@ -10,8 +10,8 @@ node{
 		echo "The value of mvnHome is: ${mvnHome}"
 		echo 'hello maven'		
 
-		bat 'mvn package'
-		//bat '"${mvnhome}/bin/mvn" package'
+		//bat 'mvn package'
+		bat "${mvnhome}/bin/mvn package"
 		//bat "${mvnhome}/bin"
 	}
 
