@@ -8,7 +8,7 @@ node{
 		//get maven home path
 		def mvnHome = tool name: 'maven 3.9', type: 'maven'
 		echo 'hello maven'
-		echo '$mvnHome'
+		echo "The value of mvnHome is: ${mvnHome}"
 		bat "${mvnhome}/bin/mvn package"
 	}
 
